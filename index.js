@@ -38,7 +38,7 @@ client.on('ready', async () => {
         }
       }
     }
-  }, 300000)
+  }, 120000)
 })
 
 client.login(process.env.TOKEN)
