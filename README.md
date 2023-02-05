@@ -9,9 +9,14 @@ the idea is a bot will interval fetch Paras API every x minutes and then get tot
 Before getting started, you need to create a discord bot first.
 
 ### Required Environment Variables
+
 There are 3 required variables for running the bot.
 - `COLLECTION_ID` If the collection is minted via Paras's contract you can get it in URL, or if the collection has own contract you can use the address name directly.
 - `TOKEN` Discord bot token
 - `GUILD_ID` Get it from your Discord's server
 
 Clone the repo, run `yarn install` and `yarn start`
+
+## Note
+
+The collection needs to be listed on Paras marketplace.
